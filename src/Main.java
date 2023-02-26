@@ -25,7 +25,7 @@ public class SauceDemoTest {
         username.sendKeys("standard_user");
         password.sendKeys("secret_sauce");
         loginButton.click();
-hg
+
         // Find all products and their prices
         List<WebElement> products = driver.findElements(By.className("inventory_item"));
         List<WebElement> prices = driver.findElements(By.className("inventory_item_price"));
